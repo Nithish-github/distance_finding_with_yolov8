@@ -26,13 +26,13 @@ This script utilizes the YOLO object detection model to detect objects in an ima
    
 2. Clone this repository:
    
-   git clone https://github.com/yourusername/cobot-distance-calculation.git
+   ``git clone https://github.com/yourusername/cobot-distance-calculation.git
 
-3. Navigate to the cloned directory:
+4. Navigate to the cloned directory:
    
    cd cobot-distance-calculation
 
-4. Run the script with the input image path provided using --image argument:
+5. Run the script with the input image path provided using --image argument:
 
    python distance_calculation.py --image path/to/your/image.jpg
    Replace path/to/your/image.jpg with the path to your desired image file.
