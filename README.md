@@ -26,14 +26,17 @@ This script utilizes the YOLO object detection model to detect objects in an ima
    
 2. Clone this repository:
    
-   ``git clone https://github.com/yourusername/cobot-distance-calculation.git
+   ````bash
+   git clone https://github.com/yourusername/cobot-distance-calculation.git
 
 4. Navigate to the cloned directory:
-   
+
+   ````bash
    cd cobot-distance-calculation
 
 5. Run the script with the input image path provided using --image argument:
-
+   
+   ````bash
    python distance_calculation.py --image path/to/your/image.jpg
    Replace path/to/your/image.jpg with the path to your desired image file.
 
@@ -41,7 +44,8 @@ The script will display the input image with annotated distances to the specifie
 
 
 ## Customization
-    You can modify the pixel_per_meter variable in the script to adjust the scale of distance calculation based on your setup.
-    For different YOLO models or weights, modify the model = YOLO("yolov8s.pt") line in the script accordingly.
+
+ You can modify the pixel_per_meter variable in the script to adjust the scale of distance calculation based on your setup.
+ For different YOLO models or weights, modify the model = YOLO("yolov8s.pt") line in the script accordingly.
 
 
