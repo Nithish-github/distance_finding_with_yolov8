@@ -23,33 +23,25 @@ This script utilizes the YOLO object detection model to detect objects in an ima
 
    ```bash
    pip install opencv-python-headless ultralytics
-
-Clone this repository:
-
-2. Clone the repo:
-
+   
+2. Clone this repository:
+   
    git clone https://github.com/yourusername/cobot-distance-calculation.git
 
-3.Navigate to the cloned directory:
-
+3. Navigate to the cloned directory:
+   
    cd cobot-distance-calculation
 
-Run the script with the input image path provided using --image argument:
+4. Run the script with the input image path provided using --image argument:
 
-bash
+   python distance_calculation.py --image path/to/your/image.jpg
+   Replace path/to/your/image.jpg with the path to your desired image file.
 
-    python distance_calculation.py --image path/to/your/image.jpg
+The script will display the input image with annotated distances to the specified point.
 
-    Replace path/to/your/image.jpg with the path to your desired image file.
 
-    The script will display the input image with annotated distances to the specified point.
-
-Customization
-
+## Customization
     You can modify the pixel_per_meter variable in the script to adjust the scale of distance calculation based on your setup.
     For different YOLO models or weights, modify the model = YOLO("yolov8s.pt") line in the script accordingly.
 
-Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
