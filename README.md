@@ -2,7 +2,7 @@
 
 This script utilizes the YOLO object detection model to detect objects in an image and calculates the distance from the detected objects to a specified point, which could be useful for guiding a cobot (collaborative robot) in performing pick-up operations.
 
-
+![Image Alt Text](https://github.com/Nithish-github/distance_finding_with_yolov8/blob/main/sample.png)
 
 ## Features
 
