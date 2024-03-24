@@ -2,6 +2,8 @@
 
 This script utilizes the YOLO object detection model to detect objects in an image and calculates the distance from the detected objects to a specified point, which could be useful for guiding a cobot (collaborative robot) in performing pick-up operations.
 
+
+
 ## Features
 
 - Object detection using YOLOv8 model.
